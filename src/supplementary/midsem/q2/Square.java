@@ -1,4 +1,4 @@
-package supplementary.q2;
+package supplementary.midsem.q2;
 
 public class Square extends Quadrilateral implements Polygon {
     @Override

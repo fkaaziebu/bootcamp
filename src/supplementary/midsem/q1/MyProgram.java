@@ -1,4 +1,4 @@
-package supplementary.q1;
+package supplementary.midsem.q1;
 
 
 public class MyProgram {
