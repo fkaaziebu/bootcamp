@@ -3,36 +3,17 @@ package supplementary.endofsem.q1;
 public class SeniorStaff extends Employee {
     private double payPerHour;
     private int hoursWorked;
+    private String department;
 
 
     @Override
     public String getDepartment() {
-        return null;
+        return this.department;
     }
 
     @Override
     public void setDepartment(String department) {
-
-    }
-
-    @Override
-    public String getFirstName() {
-        return null;
-    }
-
-    @Override
-    public void setFirstName(String firstName) {
-
-    }
-
-    @Override
-    public String getLastName() {
-        return null;
-    }
-
-    @Override
-    public void setLastName(String lastName) {
-
+        this.department = department;
     }
 
     public double getPayPerHour() {

@@ -3,6 +3,7 @@ package supplementary.endofsem.q1;
 public class SeniorMembers extends Employee {
     private double baseSalary;
     private int hoursWorked;
+    private String department;
 
 
     public double computeSalary() {
@@ -14,32 +15,12 @@ public class SeniorMembers extends Employee {
 
     @Override
     public String getDepartment() {
-        return null;
+        return this.department;
     }
 
     @Override
     public void setDepartment(String department) {
-
-    }
-
-    @Override
-    public String getFirstName() {
-        return null;
-    }
-
-    @Override
-    public void setFirstName(String firstName) {
-
-    }
-
-    @Override
-    public String getLastName() {
-        return null;
-    }
-
-    @Override
-    public void setLastName(String lastName) {
-
+        this.department = department;
     }
 
     public double getBaseSalary() {

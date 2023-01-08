@@ -9,11 +9,19 @@ public abstract class Employee {
 
     public abstract void setDepartment(String department);
 
-    public abstract String getFirstName();
+    public String getFirstName() {
+        return this.firstName;
+    }
 
-    public abstract void setFirstName(String firstName);
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-    public abstract String getLastName();
+    public String getLastName() {
+        return this.lastName;
+    }
 
-    public abstract void setLastName(String lastName);
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
